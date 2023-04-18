@@ -1,0 +1,14 @@
+.containerNewsletter {
+    display: flex;
+    padding: 30px;
+    background-color: #CDEAE1;
+    position: absolute;
+    bottom: 400px;
+    height: 300px;
+    border-radius: 20px;
+    width: 87%;
+}
+
+.footerImageCover {
+    height: 100% !important;
+}

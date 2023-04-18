@@ -1,0 +1,14 @@
+.imageCustom {
+    height: 100% !important;
+}
+
+.contentCard {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(255, 255, 255, 0) 70%);
+    z-index: 9999999;
+    border-radius: 7px;
+
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}

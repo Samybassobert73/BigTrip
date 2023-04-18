@@ -1,0 +1,37 @@
+{
+  "extends": "next/core-web-vitals",
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  // Pour avoir l'aide visuel sur l'ide il faut commenter parserOptions, decomenter pour pouvoir executer npm run lint
+  // "parserOptions": {
+  //   "project": "tsconfig.json",
+  //   "sourceType": "module"
+  // },
+  "rules": {
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        "selector": "variable",
+        "types": ["boolean"],
+        "format": ["PascalCase"],
+        "prefix": ["is", "should", "has", "can", "did", "will"]
+      },
+      {
+        "selector": "interface",
+        "format": ["PascalCase"],
+        "custom": {
+          "regex": "^I[A-Z]",
+          "match": true
+        }
+      },
+      {
+        "selector": "typeLike",
+        "format": ["PascalCase"],
+        "custom": {
+          "regex": "^T[A-Z]",
+          "match": true
+        }
+      }
+    ]
+  }
+}

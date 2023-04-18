@@ -1,0 +1,5 @@
+.tripImageDetails {
+    width: 100% !important;
+    height: 500px !important;
+    object-fit: cover;
+}
