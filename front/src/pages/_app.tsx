@@ -11,7 +11,7 @@ import {LoadScript} from '@react-google-maps/api'
 export default function App({Component, pageProps: {session, ...pageProps}}: AppProps<{ session: Session }>) {
 	return (
 		<SessionProvider session={session}>
-			<LoadScript googleMapsApiKey={'AIzaSyDIYpI97xHg5eXXkbzXn0m4NTjmI_2dLoA'} libraries={['places']}>
+			<LoadScript googleMapsApiKey={''} libraries={['places']}>
 				<AuthProvider>
 					<SearchProvider>
 						<MapsProvider>
